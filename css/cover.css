@@ -26,7 +26,6 @@ a:hover {
 
 html,
 body {
-  height: 100%;
   background-color: #333;  
 }
 body {
@@ -109,11 +108,6 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 
 /*
  * Footer
@@ -143,7 +137,7 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-  }
+  
   /* Handle the widths */
   .masthead,
   .mastfoot,
@@ -158,4 +152,8 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.content{
+  padding: 0 100px;
 }
