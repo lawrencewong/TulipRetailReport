@@ -29,7 +29,7 @@ body {
   background-color: #333;  
 }
 body {
-  color: #fff;
+  color: #FF6699;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@ body {
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: static;
     bottom: 0;
   }
   .site-wrapper-inner {
@@ -150,9 +150,10 @@ body {
 }
 
 .content{
-  margin-top: 100px;
+  margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 25px;
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -178,3 +179,6 @@ h4{
   color: #FF6699;
 }
 
+.more-info{
+  color: #FF6699;
+}
