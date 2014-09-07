@@ -31,7 +31,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -40,8 +39,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.75);
-          box-shadow: inset 0 0 100px rgba(,0,0,.75);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -124,7 +121,7 @@ body {
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
+
   .masthead {
     color: #FF6699;
     position: fixed;
@@ -134,15 +131,13 @@ body {
     position: fixed;
     bottom: 0;
   }
-  /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-  
-  /* Handle the widths */
+  }
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%; 
   }
 }
 
@@ -155,5 +150,32 @@ body {
 }
 
 .content{
-  padding: 0 100px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #FFFFFF;
+  color: #000000;
 }
+
+.words{
+  padding: 5px 5px 5px 5px;
+}
+
+.section-headers-left{
+  color: #FF6699;
+  text-align: left;
+}
+
+.section-content{
+  text-align: left;
+}
+
+.section-headers-right{
+  color: #FF6699;
+  text-align: right;
+}
+
+hr{
+  border-color: #FF6699;
+}
+
