@@ -161,18 +161,13 @@ body {
   padding: 5px 5px 5px 5px;
 }
 
-.section-headers-left{
+.section-headers{
   color: #FF6699;
   text-align: left;
 }
 
 .section-content{
   text-align: left;
-}
-
-.section-headers-right{
-  color: #FF6699;
-  text-align: right;
 }
 
 hr{
