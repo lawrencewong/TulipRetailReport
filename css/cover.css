@@ -182,3 +182,8 @@ h4{
 .more-info{
   color: #FF6699;
 }
+
+.img-responsive{
+  text-align: center;
+  margin: 0 auto;
+}
